@@ -1,0 +1,53 @@
+h1 {font-family: "Times New Roman", serif; font-size: 2em; text-align: center;}
+h3 {font-family: "Times New Roman", serif; font-size: 1.0em; color:black;text-align: center;}
+
+label[for="username"] {font-family: "Times New Roman", serif; font-size: 1.2em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block;}
+
+label[for="Sandi"] {font-family: "Times New Roman", serif; font-size: 1.1em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block; margin-top: 10px;}
+
+label[for="alamat"] {font-family: "Times New Roman", serif; font-size: 1.1em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block; margin-top: 10px;}
+
+label[for="tgllahir"] {font-family: "Times New Roman", serif; font-size: 1.1em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block; margin-top: 10px;}
+
+label[for="jenis"] {font-family: "Times New Roman", serif; font-size: 1.1em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block; margin-top: 10px;}
+
+label[for="prodi"] {font-family: "Times New Roman", serif; font-size: 1.1em; background-color: #f0f0f0; padding: 5px; border-radius: 5px; margin-bottom: 10px; display: inline-block; margin-top: 10px;}
+
+#tgllahir{
+    width: 300px; height: 30px
+}
+
+#username{
+    width: 300px; height: 30px
+}
+
+#sandi{
+    width: 300px; height: 30px
+}
+
+#alamat{
+    width: 500px; height: 100px
+}
+
+fieldset{
+    border-radius: 20px;
+    border:2px solid rgb(182, 24, 221);
+    padding: 30px;
+    margin: 50px;
+}
+
+.tombol{
+    text-align: center;
+}
+
+#b1{
+    background-color: green;
+    padding: 8px;
+    margin: 8px;
+}
+#b2{
+    background-color: red;
+    padding: 8px;
+    margin: 8px;
+}
+

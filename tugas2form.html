@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <h1>Form Registrasi</h1>
+    <h3>Tugas2 Pemograman Web</h3>
+
+<fieldset><legend></legend>
+    <form action="#">
+       <label for="username">Username :</label>
+        <br><input type="text" name="pengguna" id="username"><br><br>
+
+        <label for="Sandi">Password :</label><br>
+        <input type="password" id="sandi" name="sandi"><br><br>
+
+        <label for="alamat">Alamat : </label><br>
+        <textarea type="alamat" id="alamat"></textarea><br><br>
+    
+        <label for="prodi">Program Studi:</label>
+        <select name="prodi" id="prodi">
+            <option value="opsi1">S1 Ilmu Komputer</option>
+            <option value="opsi2">S1 Teknologi Informasi</option>
+            <option value="opsi3">S2 Teknik Informatika</option>
+            <option value="opsi4">S2 Sains Data dan Kecerdasan Buatan</option>
+            <option value="opsi5">S3 Ilmu Komputer</option>
+        </select><br><br>
+
+        <label for="tgllahir">Tanggal Lahir:</label><br>
+        <input type="datetime-local" id="tgllahir" name="tgllahir"><br> </br>
+
+        <label for="jenis">Jenis Kelamin:</label><br>
+
+        <!-- untuk type radio: artibut "name" harus sama di kedua pilihan, agar nnti hanya bisa dipilih 1 saja, menandakan kalau walau pilhannya banya, tapi semuanya dalam 1 grup opsi yang sama -->
+        <input type="radio" id="jeniskelamin" name="jeniskelamin">
+        <label for="jeniskelamin">laki-laki</label>
+        <input type="radio" id="jeniskelamin" name="jeniskelamin">
+        <label for="jeniskelamin">perempuan</label>
+        <input type="radio" id="jeniskelamin" name="jeniskelamin">
+        <label for="jeniskelamin">memilih untuk tidak memberi tahu</label><br><br>
+
+        <input type="checkbox" id="setuju" name="setuju">
+        <label for="setuju">Saya setuju dengan syarat dan ketentuan yang berlaku</label><br><br><br>
+
+       <div class="tombol">
+         <button type="submit" id="b1" name="btn register">register</button>
+         
+         <button type="reset" id="b2" value="reset">reset</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
